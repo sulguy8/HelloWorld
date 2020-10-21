@@ -1,10 +1,11 @@
-import { NativeScriptConfig } from '@nativescript/core';
+import { NativeScriptConfig } from '@nativescript/core'
 
 export default {
-  id: 'org.nativescript.HelloWorld',
+  id: 'org.nativescript.Blank',
   appResourcesPath: 'App_Resources',
   android: {
     v8Flags: '--expose_gc',
-    markingMode: 'none'
-  }
-} as NativeScriptConfig;
+    markingMode: 'none',
+  },
+  appPath: 'src',
+} as NativeScriptConfig
